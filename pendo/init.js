@@ -11,14 +11,9 @@ let test;
         // Please use Strings, Numbers, or Bools for value types.
         pendo.initialize({
             visitor: {
-                id: "no-account-id-visitor",
-                name: "Visitor with No Account ID"
+                id: "",
+                name: ""
                 
-            },
-        
-            account: {
-                id: test,
-                name: "no-account-id-visitor",
-            },
+            }
         });
 })('43994d6b-66ea-49fc-71f1-31077e387150');
